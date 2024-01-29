@@ -58,10 +58,10 @@ function showText(e, p) {
   e.style.borderColor = "transparent";
   e.value = "";
   e.classList.remove("simple_text");
-  e.click();
-  e.focus();
 
   (typeWriter = () => {
+    e.click();
+    e.focus();
     if (i < txt.length) {
       e.value += txt.charAt(i++);
       timer = setTimeout(typeWriter, speed);

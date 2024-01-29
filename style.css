@@ -22,9 +22,13 @@
   color: #03748E;
   max-width: min-content;
   text-decoration: underline;
+  margin-right: -4px;
 }
 
 .simple_text{
   text-decoration: none;
   color: #000;
+}
+.isHidden{
+  transform: translateY(2px)
 }
