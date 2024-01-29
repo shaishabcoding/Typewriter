@@ -39,7 +39,8 @@ function main() {
         hidden_input.style.borderColor = "black";
 
       if (hidden_input.value === hidden_text.innerHTML.trim()) {
-        isHidden.style.display = "none";
+        isHidden.checked = true;
+        isHidden.disabled = true;
         hidden_input.disabled = true;
       }
 
