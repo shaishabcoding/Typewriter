@@ -17,7 +17,7 @@ function main() {
       isHiddenState = !isHiddenState;
     };
 
-    hidden_input.style.width = hidden_text.clientWidth + "px";
+    hidden_input.style.width = hidden_text.clientWidth + 1 + "px";
     hidden_input.style.height = hidden_text.clientHeight + "px";
     setTimeout(() => {
       hidden_text.style.display = "none";
